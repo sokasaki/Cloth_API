@@ -125,7 +125,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Olive Green']]);
         $product->sizes()->attach([$sizeIds['M'], $sizeIds['L']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 1,
             'name' => 'Cropped T-Shirt With Print1 Navy',
             'description' => 'Navy cropped t-shirt with print.',
@@ -137,7 +137,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Navy Blue']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['M']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 1,
             'name' => 'Cropped T-Shirt With Print1 Red',
             'description' => 'Red cropped t-shirt with print.',
@@ -149,7 +149,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Red']]);
         $product->sizes()->attach([$sizeIds['L'], $sizeIds['XL']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 1,
             'name' => 'Midi Dress Black',
             'description' => 'Black midi dress.',
@@ -161,7 +161,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Black']]);
         $product->sizes()->attach([$sizeIds['M'], $sizeIds['L']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 1,
             'name' => 'Midi Dress Pink',
             'description' => 'Pink midi dress.',
@@ -173,7 +173,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Pink']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['M']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 1,
             'name' => 'Off Shoulder T-Shirt Black',
             'description' => 'Black off shoulder t-shirt.',
@@ -185,7 +185,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Black']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['L']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 1,
             'name' => 'Off Shoulder T-Shirt White',
             'description' => 'White off shoulder t-shirt.',
@@ -197,7 +197,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['White']]);
         $product->sizes()->attach([$sizeIds['M'], $sizeIds['XL']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 1,
             'name' => 'T-Shirt With Print Light Pink',
             'description' => 'Light pink t-shirt with print.',
@@ -209,7 +209,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Pink']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['M']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 1,
             'name' => 'T-Shirt With Print White',
             'description' => 'White t-shirt with print.',
@@ -221,7 +221,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['White']]);
         $product->sizes()->attach([$sizeIds['L'], $sizeIds['XL']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 1,
             'name' => 'Wide Leg Sweatpants Black',
             'description' => 'Black wide leg sweatpants.',
@@ -233,7 +233,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Black']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['M']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 1,
             'name' => 'Wide Leg Sweatpants White',
             'description' => 'White wide leg sweatpants.',
@@ -246,7 +246,7 @@ class InitialDataSeeder extends Seeder
         $product->colors()->attach([$colorIds['White']]);
         $product->sizes()->attach([$sizeIds['L'], $sizeIds['XL']]);
         // ----- Men Products -----
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Basketbal T-Shirt With Print Navy Blue',
             'description' => 'Navy blue basketball t-shirt with print.',
@@ -258,7 +258,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Navy Blue']]);
         $product->sizes()->attach([$sizeIds['M'], $sizeIds['L']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Basketbal T-Shirt With Print Red',
             'description' => 'Red basketball t-shirt with print.',
@@ -270,7 +270,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Red']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['M']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Hoody Black',
             'description' => 'Black men\'s hoody.',
@@ -282,7 +282,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Black']]);
         $product->sizes()->attach([$sizeIds['L'], $sizeIds['XL']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Hoody Brown',
             'description' => 'Brown men\'s hoody.',
@@ -294,7 +294,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Brown']]);
         $product->sizes()->attach([$sizeIds['M'], $sizeIds['L']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Hoody White',
             'description' => 'White men\'s hoody.',
@@ -306,7 +306,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['White']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['M']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Shorts With Print Beige',
             'description' => 'Beige shorts with print.',
@@ -318,7 +318,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Beige']]);
         $product->sizes()->attach([$sizeIds['M'], $sizeIds['L']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Shorts With Print Black',
             'description' => 'Black shorts with print.',
@@ -330,7 +330,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Black']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['M']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Shorts With Print Navy Blue',
             'description' => 'Navy blue shorts with print.',
@@ -342,7 +342,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Navy Blue']]);
         $product->sizes()->attach([$sizeIds['L'], $sizeIds['XL']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Straight Fit Shorts Beige',
             'description' => 'Beige straight fit shorts.',
@@ -354,7 +354,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Beige']]);
         $product->sizes()->attach([$sizeIds['M'], $sizeIds['L']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Straight Fit Shorts Dark Green',
             'description' => 'Dark green straight fit shorts.',
@@ -366,7 +366,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Dark Green']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['M']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'T-Shirt Black',
             'description' => 'Black men\'s t-shirt.',
@@ -378,7 +378,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Black']]);
         $product->sizes()->attach([$sizeIds['L'], $sizeIds['XL']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'T-Shirt Dark Gray',
             'description' => 'Dark gray men\'s t-shirt.',
@@ -390,7 +390,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Dark Gray']]);
         $product->sizes()->attach([$sizeIds['M'], $sizeIds['L']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'T-Shirt White',
             'description' => 'White men\'s t-shirt.',
@@ -402,7 +402,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['White']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['M']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'T-Shirt With Print Light Green',
             'description' => 'Light green t-shirt with print.',
@@ -414,7 +414,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Light Green']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['L']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'T-Shirt With Print White',
             'description' => 'White t-shirt with print.',
@@ -426,7 +426,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['White']]);
         $product->sizes()->attach([$sizeIds['M'], $sizeIds['XL']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Tank Top With Print Beige',
             'description' => 'Beige tank top with print.',
@@ -438,7 +438,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Beige']]);
         $product->sizes()->attach([$sizeIds['S'], $sizeIds['M']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Tank Top With Print Black',
             'description' => 'Black tank top with print.',
@@ -450,7 +450,7 @@ class InitialDataSeeder extends Seeder
         ]);
         $product->colors()->attach([$colorIds['Black']]);
         $product->sizes()->attach([$sizeIds['L'], $sizeIds['XL']]);
-        Product::create([
+        $product = Product::create([
             'category_id' => 2,
             'name' => 'Tank Top With Print Navy Blue',
             'description' => 'Navy blue tank top with print.',
